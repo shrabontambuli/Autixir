@@ -1,7 +1,8 @@
-
+"use client"
 import BannerCarousel from '@/components/BannerCarousel';
 import React from 'react';
 import Image from "next/image";
+import TabContent from './TabContent';
 
 const Home = () => {
     return (
@@ -56,6 +57,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <TabContent/>
             </div>
         </div>
     );
