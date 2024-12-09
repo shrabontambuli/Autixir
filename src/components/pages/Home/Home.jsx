@@ -7,7 +7,7 @@ import TabContent from './TabContent';
 const Home = () => {
     return (
         <div>
-            <div className='bg-[#F2F6F7] py-10'>
+            <div className='bg-[#F2F6F7] py-10 Hover-banner'>
                 <div className='max-w-screen-xl mx-auto'>
                     <BannerCarousel />
                 </div>

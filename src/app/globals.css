@@ -3,8 +3,36 @@
 @tailwind utilities;
 
 .posi {
-    transform: translate(-50%,-50%)
+    transform: translate(-50%, -50%)
 }
+
 .posi2 {
-    transform: translate(50%,-50%)
+    transform: translate(50%, -50%)
+}
+
+.Hover-banner:hover {
+    .btn-hover {
+        opacity: 1;
+        transition: .4s;
+        left: -160px;
+    }
+
+    .btn-hover2 {
+        opacity: 1;
+        transition: .4s;
+        right: -160px;
+    }
+}
+.Hover:hover {
+    .btn-hover {
+        opacity: 1;
+        transition: .4s;
+        left: -50px;
+    }
+
+    .btn-hover2 {
+        opacity: 1;
+        transition: .4s;
+        right: -50px;
+    }
 }
