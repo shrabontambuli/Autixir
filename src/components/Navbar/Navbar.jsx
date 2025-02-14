@@ -37,7 +37,6 @@ const Navbar = () => {
         <nav className='flex justify-between items-center py-8 max-w-screen-xl mx-auto'>
             <div>
                 <Image
-                    className="dark:invert"
                     src="/image/logo.webp"
                     alt="logo"
                     width={101}
