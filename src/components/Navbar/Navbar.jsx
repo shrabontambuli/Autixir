@@ -58,7 +58,7 @@ const Navbar = () => {
             </button>
             <div className='md:w-2/3'>
                 <div
-                    className={`absolute md:static top-28 right-0 z-10 w-60 shadow-xl text-xl rounded-2xl md:w-auto bg-[#e53e29] md:bg-transparent md:flex md:justify-between md:space-x-6 p-4 ps-8 md:p-0 transition-all duration-300 ${isOpen ? "block" : "hidden"
+                    className={`absolute md:static top-28 right-0 z-10 w-60 shadow-xl md:shadow-none text-xl rounded-2xl md:w-auto bg-[#e53e29] md:bg-transparent md:flex md:justify-between md:space-x-6 p-4 ps-8 md:p-0 transition-all duration-300 ${isOpen ? "block" : "hidden"
                         }`}
                 >
                     <ul className='md:flex justify-between items-center space-y-2 md:space-y-0 md:space-x-6 font-medium text-lg text-white md:text-black transform'>

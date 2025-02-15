@@ -67,13 +67,13 @@ const TabContent = () => {
     }
 
     return (
-        <div className='pb-40'>
+        <div className='md:pb-40'>
             <div className='text-center'>
                 <h3 className="text-lg text-[#e53e29] font-bold mb-2">// PARTS</h3>
-                <h1 className="text-6xl font-bold mb-6">Our Products</h1>
+                <h1 className="text-4xl md:text-6xl font-bold mb-6">Our Products</h1>
             </div>
 
-            <div className='mt-16'>
+            <div className='mt-10 md:mt-16'>
                 <ul className='flex justify-center items-center space-x-4 md:space-x-16 font-medium text-lg transform'>
                     <li className='pe-4 md:pe-14 border-e-2 h-8'>
                         <button

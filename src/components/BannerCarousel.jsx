@@ -41,11 +41,11 @@ const BannerCarousel = () => {
         <div className="relative w-full max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Text Section */}
-                <div className="flex flex-col justify-center">
-                    <h3 className="text-2xl text-[#e53e29] font-bold mb-6">{banners[currentIndex].sub_title}</h3>
-                    <h1 className="text-5xl font-bold mb-6">{banners[currentIndex].title}</h1>
-                    <p className="text-lg text-gray-700 mb-10 w-10/12">{banners[currentIndex].description}</p>
-                    <button className="bg-[#e53e29] w-40 h-16 text-white font-medium">SHOP NOW</button>
+                <div className="flex flex-col justify-center text-center md:text-left p-4">
+                    <h3 className="text-xl text-[#e53e29] font-bold mb-6">{banners[currentIndex].sub_title}</h3>
+                    <h1 className="text-2xl md:text-5xl font-bold mb-6">{banners[currentIndex].title}</h1>
+                    <p className="text-lg text-gray-700 mb-10 w-full md:w-10/12">{banners[currentIndex].description}</p>
+                    <button className="bg-[#e53e29] w-40 h-16 mx-auto md:mx-0 text-white font-medium">SHOP NOW</button>
                     <div>
                         <button
                             onClick={prevSlide}
@@ -73,7 +73,7 @@ const BannerCarousel = () => {
                     <img
                         src={banners[currentIndex].imageUrl}
                         alt={banners[currentIndex].title}
-                        className="w-full h-64 md:h-full object-cover rounded"
+                        className="w-full h-full object-cover rounded"
                     />
                 </div>
             </div>
