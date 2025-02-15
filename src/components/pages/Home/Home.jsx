@@ -13,8 +13,8 @@ const Home = () => {
                 </div>
             </div>
             <div className='max-w-screen-xl mx-auto'>
-                <div className='my-28 grid grid-cols-2 justify-items-center'>
-                    <div className='w-[600px] h-[482px] group overflow-hidden relative'>
+                <div className='my-28 grid md:grid-cols-2 justify-items-center'>
+                    <div className='lg:w-[600px] h-[482px] group overflow-hidden relative'>
                         <Image
                             className="transform transition-transform duration-1000 group-hover:scale-110"
                             src="/image/4.webp"
@@ -35,7 +35,7 @@ const Home = () => {
                             </button>
                         </div>
                     </div>
-                    <div className='w-[600px] h-[482px] group overflow-hidden relative'>
+                    <div className='lg:w-[600px] h-[482px] group overflow-hidden relative'>
                         <Image
                             className="transform transition-transform duration-1000 group-hover:scale-110"
                             src="/image/5.webp"
