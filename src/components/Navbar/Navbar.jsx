@@ -38,8 +38,8 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className='flex justify-between items-center py-8 max-w-screen-xl mx-auto'>
-            <div>
+        <nav className='flex justify-between items-center py-6 md:py-8 px-4 lg:px-0 max-w-screen-xl mx-auto'>
+            <div className='w-full md:w-44'>
                 <Image
                     src="/image/logo.webp"
                     alt="logo"
@@ -56,30 +56,30 @@ const Navbar = () => {
             >
                 {isOpen ? <Menu size={28} /> : <Menu size={28} />}
             </button>
-            <div className='md:w-2/3'>
+            <div className='lg:w-2/3'>
                 <div
-                    className={`absolute md:static top-28 right-0 z-10 w-60 shadow-xl md:shadow-none text-xl rounded-2xl md:w-auto bg-[#e53e29] md:bg-transparent md:flex md:justify-between md:space-x-6 p-4 ps-8 md:p-0 transition-all duration-300 ${isOpen ? "block" : "hidden"
+                    className={`absolute md:static top-28 right-0 z-10 w-60 shadow-xl md:shadow-none text-xl rounded-2xl md:w-auto bg-[#e53e29] md:bg-transparent md:flex md:justify-between gap-14 md:space-x-6 p-4 ps-8 md:p-0 transition-all duration-300 ${isOpen ? "block" : "hidden"
                         }`}
                 >
-                    <ul className='md:flex justify-between items-center space-y-2 md:space-y-0 md:space-x-6 font-medium text-lg text-white md:text-black transform'>
+                    <ul className='md:flex justify-between items-center space-y-2 md:space-y-0 md:space-x-6 font-medium lg:text-lg text-base text-white md:text-black transform'>
                         {
                             links?.map((link) => (
                                 <li key={link.path}>
-                                    <Link className={`${pathName === link.path && "border-b-[3px] border-black md:border-[#e53e29] transition-[.4s] font-medium text-lg"}`} href={link.path}>{link.title}</Link>
+                                    <Link className={`${pathName === link.path && "border-b-[3px] border-black md:border-[#e53e29] transition-[.4s] font-medium text-base lg:text-lg"}`} href={link.path}>{link.title}</Link>
                                 </li>
                             ))
                         }
                     </ul>
 
                     <div className='mt-6 md:mt-0'>
-                        <ul className='flex md:justify-between items-center space-x-6 font-medium text-lg text-white md:text-black'>
-                            <li className='hover:text-black md:hover:text-[#e53e29] transition-all font-medium text-lg'>USD</li>
-                            <li className='hover:text-black md:hover:text-[#e53e29] transition-all font-medium text-lg'>
+                        <ul className='flex md:justify-between items-center space-x-6 font-medium text-base lg:text-lg text-white md:text-black'>
+                            <li className='hover:text-black md:hover:text-[#e53e29] transition-all font-medium'>USD</li>
+                            <li className='hover:text-black md:hover:text-[#e53e29] transition-all font-medium'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
                                     <path fillRule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clipRule="evenodd" />
                                 </svg>
                             </li>
-                            <li className='hover:text-black md:hover:text-[#e53e29] transition-all font-medium text-lg'>
+                            <li className='hover:text-black md:hover:text-[#e53e29] transition-all font-medium'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
                                     <path fillRule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clipRule="evenodd" />
                                 </svg>
