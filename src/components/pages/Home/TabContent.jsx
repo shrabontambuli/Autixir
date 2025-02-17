@@ -99,23 +99,15 @@ const TabContent = () => {
                             className={`${tab === 4 && "border-b-[3px] border-[#e53e29] transition-[.4s] font-medium text-lg"}`}
                         >Colors</button>
                     </li>
-                    {/* {
-                        links?.map
-                            ((link) => (
-                                <li className='pe-10 border-e-2' key={link.path}>
-                                    <Link className={`${link.title === link.path && "border-b-[3px] border-[#e53e29] transition-[.4s] font-medium text-lg"}`} href={link.path}>{link.title}</Link>
-                                </li>
-                            ))
-                    } */}
                 </ul>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative Hover mt-28">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative Hover mt-24">
 
                 {
                     banners?.map((banner) => (
 
-                        <div key={banner.id} className="max-w-sm rounded-xl overflow-hidden hover:shadow-xl hover:border-b-[#e53e29] hover:border-2 transition-all border-2 h-96 relative">
+                        <div key={banner.id} className="rounded-xl hover:shadow-xl hover:border-b-[#e53e29] hover:border-2 transition-all border-2 h-96 relative">
                             <div className='flex shadow-2xl w-44 mx-auto absolute top-[50%] left-[50%] posi bg-white'>
                                 <div className='border'>
                                     <button className="hover:bg-[#e53e29] hover:text-white transition-all w-14 h-14 flex items-center justify-center">
@@ -156,6 +148,14 @@ const TabContent = () => {
                         </div>))
                 }
 
+            </div>
+            <div className='mt-14 flex justify-end'>
+                <button className="hover:bg-[#e53e29] border-2 border-[#e53e29] transition-all w-32 h-12 mx-auto md:mx-0 hover:text-white font-medium flex justify-center items-center gap-2">SEE MORE
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+
+                </button>
             </div>
         </div>
     );
