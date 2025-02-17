@@ -3,6 +3,7 @@ import BannerCarousel from '@/components/BannerCarousel';
 import React from 'react';
 import Image from "next/image";
 import TabContent from './TabContent';
+import HotDealSection from './HotDealSection';
 
 const Home = () => {
     return (
@@ -57,7 +58,10 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <TabContent/>
+                <TabContent />
+            </div>
+            <div className="h-[950px] md:h-[615px] bg-[url('/image/bg-img.jpg')] bg-center bg-cover mt-24">
+                <HotDealSection />
             </div>
         </div>
     );
