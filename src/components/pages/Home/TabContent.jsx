@@ -149,7 +149,7 @@ const TabContent = () => {
                 }
 
             </div>
-            <div className='mt-14 flex justify-end'>
+            <div className='mt-14 flex justify-center'>
                 <button className="hover:bg-[#e53e29] border-2 border-[#e53e29] transition-all w-32 h-12 mx-auto md:mx-0 hover:text-white font-medium flex justify-center items-center gap-2">SEE MORE
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />

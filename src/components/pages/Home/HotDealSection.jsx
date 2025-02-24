@@ -9,7 +9,7 @@ const HotDealSection = () => {
 
                     <p className="text-lg text-gray-700 mb-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque consequatur sequi quisquam, aspernatur nulla minima.</p>
 
-                    <div className='bg-white shadow-lg flex justify-center gap-10 p-8 w-11/12 lg:w-8/12 mx-auto border-2'>
+                    <div className='bg-white shadow-xl flex justify-center gap-10 p-8 w-11/12 lg:w-8/12 mx-auto border border-[#e53e29]'>
                         <div>
                             <h2 className='text-4xl font-bold mb-5'>00</h2>
                             <h4 className='text-xl text-gray-700 font-medium'>Days</h4>

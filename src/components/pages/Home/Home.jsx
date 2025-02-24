@@ -4,6 +4,9 @@ import React from 'react';
 import Image from "next/image";
 import TabContent from './TabContent';
 import HotDealSection from './HotDealSection';
+import TopRatedProduct from './TopRatedProduct';
+import NewsFeeds from './NewsFeeds';
+import Subscribe from './Subscribe';
 
 const Home = () => {
     return (
@@ -15,7 +18,7 @@ const Home = () => {
             </div>
             <div className='max-w-screen-xl mx-auto'>
                 <div className='my-16 md:my-28 grid md:grid-cols-2 justify-items-center gap-8'>
-                    <div className='lg:w-[600px] lg:h-[482px] group overflow-hidden relative'>
+                    <div className='lg:w-[600px] lg:h-[482px] group overflow-hidden relative border-2 border-[#e53e29]'>
                         <Image
                             className="transform transition-transform duration-1000 group-hover:scale-110"
                             src="/image/4.webp"
@@ -36,7 +39,7 @@ const Home = () => {
                             </button>
                         </div>
                     </div>
-                    <div className='lg:w-[600px] lg:h-[482px] group overflow-hidden relative'>
+                    <div className='lg:w-[600px] lg:h-[482px] group overflow-hidden relative border-2 border-[#e53e29]'>
                         <Image
                             className="transform transition-transform duration-1000 group-hover:scale-110"
                             src="/image/5.webp"
@@ -62,6 +65,15 @@ const Home = () => {
             </div>
             <div className="h-[950px] md:h-[615px] bg-[url('/image/bg-img.jpg')] bg-center bg-cover mt-24">
                 <HotDealSection />
+            </div>
+            <div className='max-w-screen-xl mx-auto my-24'>
+                <TopRatedProduct/>
+            </div>
+            <div className="h-96 bg-[url('/image/bg-img2.jpg')] bg-center bg-cover mt-24">
+               <Subscribe/>
+            </div>
+            <div className='max-w-screen-xl mx-auto my-24'>
+                <NewsFeeds/>
             </div>
         </div>
     );

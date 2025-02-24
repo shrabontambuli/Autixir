@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaFacebookF, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { IoIosSend } from "react-icons/io";
 const Footer = () => {
   return (
     <footer className="bg-[#F2F6F7]">
@@ -199,13 +200,28 @@ const Footer = () => {
           <p className="text-base text-gray-600 mt-5">
             Subscribe to our weekly Newsletter and receive updates via email.
           </p>
-          <h1 className="text-xl font-bold mt-5">We Accept</h1>
-          <div className="mt-5">
+
+          <form className="mt-10 flex items-center">
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              className="w-full h-14 px-5 py-3 text-sm text-gray-600rounded-s-md focus:outline-none focus:ring-1 focus:ring-[#e53e29]"
+            />
+            <button
+              type="submit"
+              className="px-4 py-3 h-14 text-sm font-bold text-white bg-[#e53e29] rounded-e-md hover:bg-slate-800 transition-all"
+            >
+              <IoIosSend size={20} />
+            </button>
+          </form>
+
+          <h1 className="text-xl font-bold mt-8">We Accept</h1>
+          <div className="mt-6">
             <Image
               src="/image/payment-4.webp"
               alt="logo"
               width={300}
-              height={45}
+              height={60}
               priority
             />
           </div>
