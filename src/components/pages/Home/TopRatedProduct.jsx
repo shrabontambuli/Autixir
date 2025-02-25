@@ -18,7 +18,7 @@ const TopRatedProduct = () => {
             <div className="w-32 h-32">
               <Image
                 src="/image/1.webp"
-                alt=""
+                alt="img"
                 width={100}
                 height={100}
                 objectFit="cover"
@@ -60,7 +60,7 @@ const TopRatedProduct = () => {
             <div className="w-32 h-32">
             <Image
                 src="/image/1.webp"
-                alt=""
+                alt="img"
                 width={100}
                 height={100}
                 objectFit="cover"
@@ -102,7 +102,7 @@ const TopRatedProduct = () => {
             <div className="w-32 h-32">
             <Image
                 src="/image/1.webp"
-                alt=""
+                alt="img"
                 width={100}
                 height={100}
                 objectFit="cover"
@@ -144,7 +144,7 @@ const TopRatedProduct = () => {
             <div className="w-32 h-32">
             <Image
                 src="/image/1.webp"
-                alt=""
+                alt="img"
                 width={100}
                 height={100}
                 objectFit="cover"
@@ -186,7 +186,7 @@ const TopRatedProduct = () => {
             <div className="w-32 h-32">
             <Image
                 src="/image/1.webp"
-                alt=""
+                alt="img"
                 width={100}
                 height={100}
                 objectFit="cover"
@@ -228,7 +228,7 @@ const TopRatedProduct = () => {
             <div className="w-32 h-32">
             <Image
                 src="/image/1.webp"
-                alt=""
+                alt="img"
                 width={100}
                 height={100}
                 objectFit="cover"
@@ -270,7 +270,7 @@ const TopRatedProduct = () => {
             <div className="w-32 h-32">
             <Image
                 src="/image/1.webp"
-                alt=""
+                alt="img"
                 width={100}
                 height={100}
                 objectFit="cover"
@@ -312,7 +312,7 @@ const TopRatedProduct = () => {
             <div className="w-32 h-32">
             <Image
                 src="/image/1.webp"
-                alt=""
+                alt="img"
                 width={100}
                 height={100}
                 objectFit="cover"
@@ -354,7 +354,7 @@ const TopRatedProduct = () => {
             <div className="w-32 h-32">
             <Image
                 src="/image/1.webp"
-                alt=""
+                alt="img"
                 width={100}
                 height={100}
                 objectFit="cover"
