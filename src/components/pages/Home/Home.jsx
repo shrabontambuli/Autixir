@@ -1,5 +1,5 @@
 "use client"
-import BannerCarousel from '@/components/BannerCarousel';
+import BannerCarousel from '@/components/pages/Home/BannerCarousel';
 import React from 'react';
 import Image from "next/image";
 import TabContent from './TabContent';

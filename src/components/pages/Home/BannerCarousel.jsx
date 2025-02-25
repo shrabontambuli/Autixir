@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 import Image from "next/image";
 
 const BannerCarousel = () => {
@@ -41,6 +43,11 @@ const BannerCarousel = () => {
       (prevIndex) => (prevIndex - 1 + banners.length) % banners.length
     );
   };
+
+  // useEffect(() => {
+  //   AOS.init({duration :1000});
+  // }, []);
+  // data-aos="fade-up"
 
   return (
     <div className="relative w-full max-w-7xl mx-auto">
