@@ -21,7 +21,7 @@ const TopRatedProduct = () => {
                 alt="img"
                 width={100}
                 height={100}
-                objectFit="cover"
+                style={{ objectFit: 'cover' }}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -63,7 +63,7 @@ const TopRatedProduct = () => {
                 alt="img"
                 width={100}
                 height={100}
-                objectFit="cover"
+                style={{ objectFit: 'cover' }}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -105,7 +105,7 @@ const TopRatedProduct = () => {
                 alt="img"
                 width={100}
                 height={100}
-                objectFit="cover"
+                style={{ objectFit: 'cover' }}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -147,7 +147,7 @@ const TopRatedProduct = () => {
                 alt="img"
                 width={100}
                 height={100}
-                objectFit="cover"
+                style={{ objectFit: 'cover' }}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -189,7 +189,7 @@ const TopRatedProduct = () => {
                 alt="img"
                 width={100}
                 height={100}
-                objectFit="cover"
+                style={{ objectFit: 'cover' }}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -231,7 +231,7 @@ const TopRatedProduct = () => {
                 alt="img"
                 width={100}
                 height={100}
-                objectFit="cover"
+                style={{ objectFit: 'cover' }}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -273,7 +273,7 @@ const TopRatedProduct = () => {
                 alt="img"
                 width={100}
                 height={100}
-                objectFit="cover"
+                style={{ objectFit: 'cover' }}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -315,7 +315,7 @@ const TopRatedProduct = () => {
                 alt="img"
                 width={100}
                 height={100}
-                objectFit="cover"
+                style={{ objectFit: 'cover' }}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -357,7 +357,7 @@ const TopRatedProduct = () => {
                 alt="img"
                 width={100}
                 height={100}
-                objectFit="cover"
+                style={{ objectFit: 'cover' }}
                 className="w-full h-full object-cover"
               />
             </div>

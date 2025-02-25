@@ -106,7 +106,7 @@ const BannerCarousel = () => {
             alt={banners[currentIndex].title}
             width={700}
             height={700}
-            objectFit="cover"
+            style={{ objectFit: 'cover' }}
             // className=" object-cover rounded"
           />
         </div>

@@ -41,7 +41,7 @@ const HotDealSection = () => {
             alt=""
             width={530}
             height={700}
-            objectFit="cover"
+            style={{ objectFit: 'cover' }}
           />
         </div>
       </div>
