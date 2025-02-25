@@ -4,12 +4,12 @@ const Subscribe = () => {
       <div className="flex justify-center items-center h-96">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-6">We make your inbox better</h1>
-          <p className="text-lg text-gray-700 mb-10 w-7/12 mx-auto">
+          <p className="text-lg text-gray-700 mb-10 md:w-7/12 mx-auto">
             Sign up to our newsletter to receive grooming tips, style
             inspiration, exclusive access to pre-launch product pricing and
             more.
           </p>
-          <form className="mt-10 flex items-center w-9/12 mx-auto">
+          <form className="mt-10 flex items-center p-2 md:p-0 md:w-9/12 mx-auto">
             <input
               type="email"
               placeholder="Enter your email address"

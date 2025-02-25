@@ -72,7 +72,7 @@ const Home = () => {
             <div className="h-96 bg-[url('/image/bg-img2.jpg')] bg-center bg-cover mt-24">
                <Subscribe/>
             </div>
-            <div className='max-w-screen-xl mx-auto my-24'>
+            <div>
                 <NewsFeeds/>
             </div>
         </div>

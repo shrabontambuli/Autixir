@@ -4,7 +4,7 @@ import { IoIosSend } from "react-icons/io";
 const Footer = () => {
   return (
     <footer className="bg-[#F2F6F7]">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-9 max-w-screen-2xl mx-auto py-20 px-7 lg:px-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-9 max-w-screen-2xl mx-auto lg:pt-32 py-14 px-7 lg:px-0">
         <div>
           <div className="w-44">
             <Image
@@ -229,7 +229,31 @@ const Footer = () => {
       </div>
       <div className="bg-[#1A202C] py-10 text-center text-white">
         <div className="max-w-screen-2xl mx-auto">
-          <p className="text-sm">�� 2023 Autixir. All rights reserved.</p>
+          <div className="md:flex justify-between items-center">
+            <div>
+              <p className="text-md">�� 2025 Autixir. All rights reserved.</p>
+            </div>
+            <div className="flex justify-center lg:justify-start items-center gap-6">
+              <a
+                to="/"
+                className="text-white text-sm hover:text-[#e53e29] transition-all font-medium"
+              >
+                Terms & Conditions
+              </a>
+              <a
+                to="/"
+                className="text-white text-sm hover:text-[#e53e29] transition-all font-medium"
+              >
+                Claim
+              </a>
+              <a
+                to="/"
+                className="text-white text-sm hover:text-[#e53e29] transition-all font-medium"
+              >
+                Privacy & Policy
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
