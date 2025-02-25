@@ -56,7 +56,7 @@ const NewsFeeds = () => {
             </div>
             <div>
               <h3 className="text-2xl font-medium">Free home delivery</h3>
-              <p className="mt-3">
+              <p className="mt-3 w-60">
                 Provide free home delivery for all product over $100
               </p>
             </div>
@@ -70,7 +70,7 @@ const NewsFeeds = () => {
             </div>
             <div>
               <h3 className="text-2xl font-medium">Quality Products</h3>
-              <p className="mt-3">
+              <p className="mt-3 w-60">
                 We ensure the product quality that is our main goal
               </p>
             </div>
@@ -84,12 +84,12 @@ const NewsFeeds = () => {
             </div>
             <div>
               <h3 className="text-2xl font-medium">3 Days Return</h3>
-              <p className="mt-3">
+              <p className="mt-3 w-60">
                 Return product within 3 days for any product you buy
               </p>
             </div>
           </div>
-          <div className=" flex items-center gap-6 shadow-xl lg:shadow-none lg:border-e-2 p-3 lg:px-2">
+          <div className=" flex items-center gap-6 shadow-xl lg:shadow-none p-3 lg:px-2">
             <div>
               <BiSupport
                 size={50}
@@ -98,7 +98,7 @@ const NewsFeeds = () => {
             </div>
             <div>
               <h3 className="text-2xl font-medium">Online Support</h3>
-              <p className="mt-3">
+              <p className="mt-3 w-60">
                 We ensure the product quality that you can trust easily
               </p>
             </div>
