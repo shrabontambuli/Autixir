@@ -69,7 +69,7 @@ const TabContent = () => {
     return (
         <div>
             <div className='text-center'>
-                <h3 className="text-lg text-[#e53e29] font-bold mb-2">// PARTS</h3>
+                <h3 className="text-lg text-[#e53e29] font-bold mb-2">[ PARTS ]</h3>
                 <h1 className="text-4xl md:text-6xl font-bold mb-6">Our Products</h1>
             </div>
 

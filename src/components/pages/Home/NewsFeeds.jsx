@@ -11,7 +11,7 @@ const NewsFeeds = () => {
       <div className="max-w-screen-xl mx-auto my-24">
         <div className="text-center my-24">
           <h3 className="text-lg text-[#e53e29] font-bold mb-2">
-            // blog & insights
+            [ blog & insights ]
           </h3>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">News Feeds.</h1>
         </div>
