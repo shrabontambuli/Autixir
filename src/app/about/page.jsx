@@ -1,12 +1,12 @@
-import Home from '@/components/pages/Home/Home';
-import React from 'react';
+import About from "@/components/pages/About/About";
+import React from "react";
 
 const page = () => {
-    return (
-        <>
-         <h1>This is About</h1>
-        </>
-    );
+  return (
+    <>
+      <About />
+    </>
+  );
 };
 
 export default page;
