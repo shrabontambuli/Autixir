@@ -16,7 +16,7 @@ const NewsFeeds = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-6">News Feeds.</h1>
         </div>
         {/* Newsfeed Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-10 mt-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-items-center gap-10 mt-24">
           {/* Newsfeed Item */}
           {news.map((item) => (
             <div key={item}>
