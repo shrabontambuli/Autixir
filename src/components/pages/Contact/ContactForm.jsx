@@ -18,7 +18,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="my-36">
+    <div className="mt-28 mb-28 lg:-mb-24 relative">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         <div className="flex justify-center items-center border-2 h-[350px]">
           <div className="text-center">
@@ -81,7 +81,7 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
-      <div className="mt-36 border shadow-xl p-8 md:p-16">
+      <div className="mt-28 border shadow-xl p-8 md:p-16 bg-white">
         <h1 className="text-4xl font-medium mb-10">Get A Quote</h1>
         <form className="flex flex-col gap-5">
           <div className="md:flex items-center gap-8">
@@ -152,7 +152,7 @@ const ContactForm = () => {
                 onChange={handleCheckboxChange}
                 className="w-6 h-6 accent-[#e53e29]"
               />
-              <span className="text-md ms-2 md:text-lg">Save my name, email, and website in this browser for the next time
+              <span className="text-md ms-2">Save my name, email, and website in this browser for the next time
               I comment.</span>
             </label>
 
