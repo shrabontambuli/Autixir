@@ -1,7 +1,6 @@
 "use client";
+import NewsFeeds from "@/components/NewsFeeds/NewsFeeds";
 import Image from "next/image";
-import { useRef, useState } from "react";
-import { Play, Pause, Volume2, VolumeX, Fullscreen } from "lucide-react";
 import Link from "next/link";
 
 const AboutUs = () => {
@@ -10,6 +9,7 @@ const AboutUs = () => {
     { label: "Car Rental Service", value: 74 },
     { label: "Car Cleaning & Parts", value: 81 },
   ];
+
 
   return (
     <div>
@@ -65,7 +65,7 @@ const AboutUs = () => {
       </div>
       <div className="bg-gray-100 pt-16 text-center">
         <p className="text-[#e53e29] font-semibold"> FEATURES </p>
-        <h2 className="text-4xl font-bold mt-6">
+        <h2 className="text-4xl md:text-6xl font-bold mt-6">
           Why Choose Us<span className="text-[#e53e29]">.</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-screen-xl mx-auto my-28">
@@ -139,7 +139,7 @@ const AboutUs = () => {
           </div>
           <div className="max-w-4xl mx-auto rounded-lg overflow-hidden">
             <iframe
-            className="w-full lg:w-[560px] h-full"
+              className="w-full lg:w-[560px] h-full"
               src="https://www.youtube.com/embed/eWUxqVFBq74?si=fyA_vg1IzyOc1DsH"
               title="YouTube video player"
               frameborder="0"
@@ -149,6 +149,10 @@ const AboutUs = () => {
             ></iframe>
           </div>
         </div>
+        <div className="my-28">
+          <NewsFeeds />
+        </div>
+        
       </div>
     </div>
   );

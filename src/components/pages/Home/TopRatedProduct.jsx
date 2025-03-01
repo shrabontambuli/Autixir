@@ -8,7 +8,7 @@ const TopRatedProduct = () => {
           [ Top Rated products ]
         </h3>
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Top Rated Products
+          Top Rated Products<span className="text-[#e53e29]">.</span>
         </h1>
       </div>
       <div>

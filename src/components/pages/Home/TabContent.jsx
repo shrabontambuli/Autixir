@@ -70,7 +70,7 @@ const TabContent = () => {
         <div>
             <div className='text-center'>
                 <h3 className="text-lg text-[#e53e29] font-bold mb-2">[ PARTS ]</h3>
-                <h1 className="text-4xl md:text-6xl font-bold mb-6">Our Products</h1>
+                <h1 className="text-4xl md:text-6xl font-bold mb-6">Our Products<span className="text-[#e53e29]">.</span></h1>
             </div>
 
             <div className='mt-10 md:mt-16'>

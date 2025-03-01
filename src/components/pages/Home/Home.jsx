@@ -5,8 +5,8 @@ import Image from "next/image";
 import TabContent from './TabContent';
 import HotDealSection from './HotDealSection';
 import TopRatedProduct from './TopRatedProduct';
-import NewsFeeds from './NewsFeeds';
 import Subscribe from './Subscribe';
+import OurStory from './OurStory';
 
 const Home = () => {
     return (
@@ -73,7 +73,7 @@ const Home = () => {
                <Subscribe/>
             </div>
             <div>
-                <NewsFeeds/>
+                <OurStory/>
             </div>
         </div>
     );
