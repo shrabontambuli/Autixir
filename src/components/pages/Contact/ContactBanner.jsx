@@ -14,7 +14,7 @@ const ContactBanner = () => {
                 Welcome to our company
               </h3>
               <h1 className="text-white text-5xl md:text-6xl font-bold mt-6">
-                Contact Us<span className="text-[#e53e29]">.</span>
+                Contact Us <span className="text-[#e53e29]">.</span>
               </h1>
             </div>
             <div className="flex items-center justify-center md:justify-start mt-10">

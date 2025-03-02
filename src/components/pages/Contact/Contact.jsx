@@ -1,7 +1,7 @@
 import React from "react";
 import ContactBanner from "./ContactBanner";
 import ContactForm from "./ContactForm";
-import ServiceTime from "./ServiceTime";
+import ServiceTime from "../../ServiceTime/ServiceTime";
 
 const Contact = () => {
   return (
@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="max-w-screen-xl mx-auto">
         <ContactForm />
       </div>
-      <div className="bg-[#071c1f]">
+      <div>
         <ServiceTime/>
       </div>
     </>

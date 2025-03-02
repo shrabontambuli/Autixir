@@ -1,5 +1,6 @@
 "use client";
 import NewsFeeds from "@/components/NewsFeeds/NewsFeeds";
+import ServiceTime from "@/components/ServiceTime/ServiceTime";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +10,6 @@ const AboutUs = () => {
     { label: "Car Rental Service", value: 74 },
     { label: "Car Cleaning & Parts", value: 81 },
   ];
-
 
   return (
     <div>
@@ -40,7 +40,7 @@ const AboutUs = () => {
                 About Us
               </h3>
               <h1 className="text-4xl lg:text-6xl font-bold mt-6">
-                Safety Is Our First & Main Priority.
+                Safety Is Our First & Main Priority <span className="text-[#e53e29]">.</span>
               </h1>
               <div className="mt-10 md:mt-6 border-s-2 border-[#e53e29] ps-10 lg:p-3">
                 <p>
@@ -66,7 +66,7 @@ const AboutUs = () => {
       <div className="bg-gray-100 pt-16 text-center">
         <p className="text-[#e53e29] font-semibold"> FEATURES </p>
         <h2 className="text-4xl md:text-6xl font-bold mt-6">
-          Why Choose Us<span className="text-[#e53e29]">.</span>
+          Why Choose Us <span className="text-[#e53e29]">.</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-screen-xl mx-auto my-28">
           <div className="bg-white p-8 rounded-lg shadow">
@@ -107,9 +107,9 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 p-1 my-28">
           <div>
             <div className="px-3">
-              <h3 className="text-lg text-[#e53e29] font-bold mb-2">skills</h3>
+              <h3 className="text-lg text-[#e53e29] font-bold mb-2">Skills</h3>
               <h1 className="text-4xl md:text-2xl lg:text-6xl font-bold mt-6">
-                We Have A Skillest Team Ever.
+                We Have A Skillest Team Ever <span className="text-[#e53e29]">.</span>
               </h1>
               <div className="mt-10 md:mt-6 lg:mt-10 border-s-2 border-[#e53e29] ps-10 md:ps-4 lg:p-3">
                 <p>
@@ -152,7 +152,9 @@ const AboutUs = () => {
         <div className="my-28">
           <NewsFeeds />
         </div>
-        
+      </div>
+      <div>
+        <ServiceTime />
       </div>
     </div>
   );

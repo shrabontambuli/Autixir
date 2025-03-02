@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const AboutBanner = () => {
+const NewsBanner = () => {
   return (
     <div className="bg-[url('/image/contact-bg.jpg')] bg-center bg-cover w-full h-[450px]">
       <div
@@ -14,7 +14,7 @@ const AboutBanner = () => {
                 Welcome to our company
               </h3>
               <h1 className="text-white text-5xl md:text-6xl font-bold mt-6">
-                About Us <span className="text-[#e53e29]">.</span>
+                News <span className="text-[#e53e29]">.</span>
               </h1>
             </div>
             <div className="flex items-center justify-center md:justify-start mt-10">
@@ -25,7 +25,7 @@ const AboutBanner = () => {
                 Home
               </Link>
               <span className="mx-4 text-gray-500">|</span>
-              <h4 className="text-[#e53e29] font-medium">About Us</h4>
+              <h4 className="text-[#e53e29] font-medium">News</h4>
             </div>
           </div>
         </div>
@@ -34,4 +34,4 @@ const AboutBanner = () => {
   );
 };
 
-export default AboutBanner;
+export default NewsBanner;

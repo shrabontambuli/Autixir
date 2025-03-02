@@ -9,7 +9,7 @@ const NewsFeeds = () => {
           <h3 className="text-lg text-[#e53e29] font-bold mb-2">
             [ blog & insights ]
           </h3>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">News Feeds<span className="text-[#e53e29]">.</span></h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">News Feeds <span className="text-[#e53e29]">.</span></h1>
         </div>
         {/* Newsfeed Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-items-center gap-10 mt-24">
