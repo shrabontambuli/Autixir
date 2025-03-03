@@ -3,6 +3,7 @@ import { useState } from "react";
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
 import Image from "next/image";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const BannerCarousel = () => {
   const banners = [
@@ -69,38 +70,16 @@ const BannerCarousel = () => {
           <div>
             <button
               onClick={prevSlide}
-              className="px-4 py-4 border hover:bg-[#e53e29] transition-all mr-2 absolute lg:top-[50%] posi lg:-left-64 opacity-0 btn-hover"
+              className="px-4 py-4 border hover:bg-[#e53e29] transition-all mr-2 absolute lg:top-[50%] posi lg:-left-64 opacity-0 btn-hover hover:text-white"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="size-6"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              <FaArrowLeft size={18}/>
               {/* Previous */}
             </button>
             <button
               onClick={nextSlide}
-              className="px-4 py-4 border hover:bg-[#e53e29] transition-all absolute lg:top-[50%] posi2 lg:-right-64 opacity-0  btn-hover2"
+              className="px-4 py-4 border hover:bg-[#e53e29] transition-all absolute lg:top-[50%] posi2 lg:-right-64 opacity-0  btn-hover2 hover:text-white"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="size-6"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              <FaArrowRight size={18}/>
               {/* Next */}
             </button>
           </div>

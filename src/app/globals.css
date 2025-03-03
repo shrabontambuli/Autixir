@@ -27,6 +27,7 @@ body {
         right: -160px;
     }
 }
+
 .Hover:hover {
     .btn-hover {
         opacity: 1;

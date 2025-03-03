@@ -5,6 +5,15 @@ import { IoLogoTwitter } from "react-icons/io";
 import { IoSearch } from "react-icons/io5";
 
 const NewsSideContent = () => {
+  const categories = [
+    { name: "Business", count: 6 },
+    { name: "Consultant", count: 5 },
+    { name: "Creative", count: 4 },
+    { name: "UI/UX", count: 4 },
+    { name: "Technology", count: 4 },
+  ];
+
+  
   return (
     <div>
       <aside className="space-y-10">
@@ -33,16 +42,16 @@ const NewsSideContent = () => {
                 <FaFacebookF size={20} />
               </Link>
               <Link href="#" className="text-gray-500 hover:text-[#e53e29]">
-                <IoLogoTwitter size={20}/>
+                <IoLogoTwitter size={20} />
               </Link>
               <Link href="#" className="text-gray-500 hover:text-[#e53e29]">
-                <FaLinkedin size={20}/>
+                <FaLinkedin size={20} />
               </Link>
               <Link href="#" className="text-gray-500 hover:text-[#e53e29]">
-                <FaBehance size={20}/>
+                <FaBehance size={20} />
               </Link>
               <Link href="#" className="text-gray-500 hover:text-[#e53e29]">
-                <FaYoutube size={20}/>
+                <FaYoutube size={20} />
               </Link>
             </div>
           </div>
@@ -98,6 +107,51 @@ const NewsSideContent = () => {
             ))}
           </ul>
         </div>
+      </aside>
+      <aside className=" mt-10">
+        {/* Categories */}
+        <section className="mb-6 bg-white p-10 border hover:shadow-xl transition-all">
+          <h3 className="text-xl font-bold flex items-center gap-2 pb-2 mb-4">
+            <span className="text-red-500">—</span> Categories
+          </h3>
+          <ul>
+            {categories.map((category) => (
+              <li
+                key={category.name}
+                className="flex justify-between items-center bg-[#071c1f] hover:bg-[#e53e29] text-white p-3 mb-2 rounded transition-all"
+              >
+                <span>{category.name}</span>
+                <span className="bg-[#ffffff27] py-2 px-5 rounded">
+                  {category.count}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        {/* Social Media Links */}
+        <section className="mb-6 bg-white p-10 border hover:shadow-xl transition-all mt-10">
+          <h3 className="text-xl font-bold flex items-center gap-2 pb-2 mb-4">
+            <span className="text-red-500">—</span> Never Miss News
+          </h3>
+          <div className="flex space-x-6 mt-8">
+              <Link href="#" className="text-gray-500 hover:text-white border p-2 hover:bg-[#e53e29] transition-all">
+                <FaFacebookF size={20} />
+              </Link>
+              <Link href="#" className="text-gray-500 hover:text-white border p-2 hover:bg-[#e53e29] transition-all">
+                <IoLogoTwitter size={20} />
+              </Link>
+              <Link href="#" className="text-gray-500 hover:text-white border p-2 hover:bg-[#e53e29] transition-all">
+                <FaLinkedin size={20} />
+              </Link>
+              <Link href="#" className="text-gray-500 hover:text-white border p-2 hover:bg-[#e53e29] transition-all">
+                <FaBehance size={20} />
+              </Link>
+              <Link href="#" className="text-gray-500 hover:text-white border p-2 hover:bg-[#e53e29] transition-all">
+                <FaYoutube size={20} />
+              </Link>
+            </div>
+        </section>
       </aside>
     </div>
   );
