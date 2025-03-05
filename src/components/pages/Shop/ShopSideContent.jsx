@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaBehance, FaFacebookF, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io";
-import { IoSearch, IoStar, IoStarHalf, IoStarOutline } from "react-icons/io5";
+import { IoStar, IoStarHalf, IoStarOutline } from "react-icons/io5";
 import { useState } from "react";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";

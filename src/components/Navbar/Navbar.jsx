@@ -26,6 +26,10 @@ const Navbar = () => {
             path: '/news',
         },
         {
+            title: 'Wishlist',
+            path: '/wishlist',
+        },
+        {
             title: 'Contact',
             path: '/contact',
         }
